@@ -14,3 +14,8 @@ class ContributionGuide:
             "Push the branch and submit a pull request"
         ]
         return "\n".join(steps)
+
+if __name__ == "__main__":
+    print("How to Contribute:")
+    print(ContributionGuide.how_to_contribute())
+```
